@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
+  
     <title>Jacob Breining</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+	
 	<meta name="description" content="Portfolio site."/>
 	<meta name="keywords" content="html, css, auto, automotive, portfolio, resume, coding, web design, design, web development, development"/>
 	<meta name="author" content="Jacob Breining"/>
 	<meta name="title" content="IT Student."/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+	<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	
   </head>
   <body>
-    <div class="container">
-	  <div class="about">
-      <h1>About me.</h1>
-      <img src="img/me.png" alt="about me picture" title="Jacob Breining" />
-      <p class="top-p">About me coming soon!
-      Skills I am proficient in: </p>
-      <ul class="skills-list">
-        <li>Basic html design</li>
-        <li>Automotive maintenance and customization</li>
-        <li>Cooking</li>
-      </ul>
-	  </div>
-	  <div class="contact">
-		<div class="contact-right">
-        <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=1700%20N%20Westwood%20Ave%2C%20Toledo%2C%20OH%2C%20United%20States&key=AIzaSyAxwp3qxuLe_NK8xfyKxpUlkng9R32iobI"></iframe>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="body-container">
+		<div class="about" id="about">
+		<h1>Jacob Breining</h1>
+		<img src="img/me.png" alt="about me picture" title="Jacob Breining" />
+		<p class="top-p">About me coming soon!
+		Skills I am proficient in: </p>
+		<ul class="skills-list">
+			<li>Basic html design</li>
+			<li>Automotive maintenance and customization</li>
+			<li>Cooking</li>
+		</ul>
 		</div>
-	  <div class="contact-left">
+	</div>	
+	<div class="contact" id="contact">
         <div id="form-main">
           <div id="form-div">
             <form class="contact-form" id="form">
@@ -40,12 +60,11 @@
               </p>
               <div class="submit">
                 <input type="submit" value="SEND" id="button-blue"/>
-              </div>
+				<div class="ease"></div>
+			  </div>
             </form>
           </div>
-		  </div>
-		  </div>
-        </div>
-      </div>
-  <body>
+		</div>
+	</div>
+  </body>
 </html>
