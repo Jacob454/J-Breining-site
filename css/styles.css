@@ -18,6 +18,12 @@ body {
 
 .body-container {
   margin-top: 5% !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skills-list {
+font-family: 'Poiret One', cursive;
+font-size: 65% !important;
 }
 
 #form-main {
