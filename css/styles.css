@@ -1,6 +1,5 @@
 html {
-  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/wooden-floor.png) repeat center center fixed !important;
+  background: url(../img/background.png) repeat center center fixed !important;
   background-size: 100% auto !important;
   background-repeat: repeat !important;
 }
@@ -13,7 +12,8 @@ body {
 }
 
 .navbar-inverse {
-  background-color: #0D2B21;
+  background-color: #00004c;
+  opacity: 0.4;
 }
 
 .body-container {
@@ -157,7 +157,7 @@ font-size: 65% !important;
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #0D2B21;
+    background-color: #00004c;
     color:white;
     font-size:24px;
     padding-top:22px;
@@ -321,7 +321,7 @@ font-size: 65% !important;
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #0D2B21;
+    background-color: #00004c;
     color:white;
     font-size:24px;
     padding-top:22px;
@@ -491,7 +491,7 @@ font-size: 65% !important;
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #0D2B21;
+    background-color: #00004c;
     color:white;
     font-size:24px;
     padding-top:22px;
@@ -653,7 +653,7 @@ font-size: 65% !important;
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #0D2B21;
+    background-color: #00004c;
     color:white;
     font-size:24px;
     padding-top:22px;
@@ -698,8 +698,8 @@ font-size: 65% !important;
     display: block;
     margin: 0 auto;
     margin-top: 3%;
-    width: 221px;
-    height: 294.5px;
+    width: 165.75px;
+    height: 220.875px;
   }
 
   .top-p {
@@ -815,7 +815,7 @@ font-size: 65% !important;
     width: 100%;
     border: #fbfbfb solid 4px;
     cursor:pointer;
-    background-color: #0D2B21;
+    background-color: #00004c;
     color:white;
     font-size:24px;
     padding-top:22px;
